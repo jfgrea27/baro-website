@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/hc7br857rr00/public_html/
-    - /bin/cp -R baro-website $DEPLOYPATH
+    - /bin/cp -r * $DEPLOYPATH
